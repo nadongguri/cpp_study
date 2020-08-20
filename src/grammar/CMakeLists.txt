@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project(cpp_grammar)
+add_executable(class_default class_default.cpp)
+add_executable(class_delete class_delete.cpp)
+add_executable(constexpr constexpr.cpp)
+add_executable(copy_constructor copy_constructor.cpp)
+add_executable(virtual_destructor virtual_destructor.cpp)
+add_executable(inheritance_types inheritance_types.cpp)
